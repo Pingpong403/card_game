@@ -1,27 +1,23 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+The Card Game is a two-part sage: one of guessing the right number out of 13, and another of guessing the right suit out of just 4. But there's a catch: guess the suit wrong and you lose!
 
-{Provide a description of the software that you wrote to demonstrate the Rust language.}
+Rust is a challenging language! Not only can it be difficult to get installed, but its syntax and concepts are very different from its peers. It was a challenge for me to get around all of this.
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/c8i5ONcCgDc)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+This project was done in Visual Studio Code. While Rust is mainly run through the command line, VSCode provided a great environment to develop in. It also has a Rust extension that analyzed my code - saving me lots of headaches.
 
-{Describe the programming language that you used and any libraries.}
+Rust itself is a functional language. It uses concepts like ownership, mutablility, and modularity quite extensively! In fact, there is no concept of a "class" at all! To get around this, I used module, struct, and `impl`.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
+Definitely check these websites out if you plan on making a Rust project like mine - or any Rust project for that matter.
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Rust Docs](https://doc.rust-lang.org/std/index.html)
+- [The Rust Language Book](https://doc.rust-lang.org/book/title-page.html)
 
 # Future Work
 
