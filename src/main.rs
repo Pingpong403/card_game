@@ -58,11 +58,12 @@ fn main() {
         }
         else {
             println!("Not quite!");
+            break;
         }
     }
 
     println!("");
-    
+
     println!("My card was:");
     myCard.display();
 }
