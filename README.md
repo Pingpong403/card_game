@@ -21,8 +21,8 @@ Definitely check these websites out if you plan on making a Rust project like mi
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
+Take a quick look at my code and you'll see that it's not quite done! Here's what I would like to do in the future to improve it:
 
-- Item 1
-- Item 2
-- Item 3
+- Implement better error handling
+- Optimize code for better efficiency
+- Create a UI!
