@@ -1,8 +1,8 @@
 # Overview
 
-The Card Game is a two-part sage: one of guessing the right number out of 13, and another of guessing the right suit out of just 4. But there's a catch: guess the suit wrong and you lose!
+The Card Game is a two-part saga: one of guessing the right number out of 13, and another of guessing the right suit out of just 4. But there's a catch: guess the suit wrong and you lose!
 
-Rust is a challenging language! Not only can it be difficult to get installed, but its syntax and concepts are very different from its peers. It was a challenge for me to get around all of this.
+Rust is a challenging language. Not only can it be difficult to get installed, but its syntax and concepts are very different from its peers. It was a challenge for me to get around all of this.
 
 [Software Demo Video](https://youtu.be/c8i5ONcCgDc)
 
