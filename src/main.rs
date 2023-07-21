@@ -6,8 +6,8 @@ use std::cmp::Ordering;
 
 fn main() {
     // generate my random card
-    let mut myCard: Card = Card { suit: Suits::Spades, value: 1 };
-    myCard.generate();
+    let mut my_card: Card = Card { suit: Suits::Spades, value: 1 };
+    my_card.generate();
 
     // let user guess my number
     println!("I have a card! Guess the number!");
@@ -25,7 +25,7 @@ fn main() {
     
         println!("You guessed: {user_num_guess}");
     
-        match user_num_guess.cmp(&myCard.value) {
+        match user_num_guess.cmp(&my_card.value) {
             Ordering::Less => println!("Too small!"),
             Ordering::Greater => println!("Too big!"),
             Ordering::Equal => {
@@ -52,7 +52,7 @@ fn main() {
 
         println!("You guessed: {user_suit_guess}");
 
-        if myCard.compare(&user_suit_guess) {
+        if my_card.compare(&user_suit_guess) {
             println!("You got it!");
             break;
         }
@@ -65,5 +65,5 @@ fn main() {
     println!("");
 
     println!("My card was:");
-    myCard.display();
+    my_card.display();
 }

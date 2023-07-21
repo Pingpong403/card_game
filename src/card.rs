@@ -32,8 +32,7 @@ pub mod card {
         }
 
         pub fn display(&self) {
-            let mut display_value = String::new();
-            display_value = match self.value {
+            let display_value = match self.value {
                 0 => "null".to_string(),
                 1..=10 => self.value.to_string(),
                 11 => "Jack".to_string(),
