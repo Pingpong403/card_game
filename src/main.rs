@@ -57,7 +57,7 @@ fn main() {
             break;
         }
         else {
-            println!("Not quite!");
+            println!("Not quite...");
             break;
         }
     }

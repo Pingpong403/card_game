@@ -34,7 +34,8 @@ pub mod card {
         pub fn display(&self) {
             let display_value = match self.value {
                 0 => "null".to_string(),
-                1..=10 => self.value.to_string(),
+                1 => "Ace".to_string(),
+                2..=10 => self.value.to_string(),
                 11 => "Jack".to_string(),
                 12 => "Queen".to_string(),
                 13 => "King".to_string(),
